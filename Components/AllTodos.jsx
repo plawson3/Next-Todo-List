@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import TodoItem from "./TodoItem";
+import TodoItem from "../Components/TodoItem";
 import { Stack, List, Text } from "@chakra-ui/react";
 
 export default function AllTodos({ todoList, DeleteTodo, TodoDone }) {

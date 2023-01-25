@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import TodoInput from "./TodoInput";
-import AllTodos from "./AllTodos";
+import TodoInput from "../Components/TodoInput";
+import AllTodos from "../Components/AllTodos";
 import { Stack, Card, Heading, CardHeader, CardBody } from "@chakra-ui/react";
 
 export default function Todos() {
